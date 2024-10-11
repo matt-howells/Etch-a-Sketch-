@@ -7,6 +7,11 @@ for (i=0; i<256; i++) {
     gridDiv.className = "gridDiv";
     container.appendChild(gridDiv);
     
+    gridDiv.addEventListener("mouseover",() => {
+        gridDiv.style.backgroundColor = 'black'
+    })
 }
 
+// hover event listener 
 
+addEventListener("mouseover", )
